@@ -1,11 +1,13 @@
-# Debian + Wine + OpenVNC + Docker Compose + Okteto = awesome
+# Debian + Wine + VNC + Docker Compose + Okteto = awesome
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy)
 
-Inspired by https://twitter.com/lach_dev/status/1385300108883943427, this show cases a few of Okteto's features:
+Inspired by [Łukasz Lach's tweet](https://twitter.com/lach_dev/status/1385300108883943427), this showcases a few of Okteto's features:
 - Deploy with one click (click the big green button!)
 - Build containers on demand
 - Compatibility with Docker-Compose
-- Automatic SSL endpoint and a proxy
+- Automatic SSL endpoints
 
-I'm not an expert on Wine, so the resolution is not ideal. But accepting PRs :)
+I'm not an expert on Wine (the emulator, that is), so the resolution is off. But PRs accepted ;).
+
+Thanks to Patrick Gaskin for [his guide on Containers + TigerVNC](https://www.digitalocean.com/community/tutorials/how-to-remotely-access-gui-applications-using-docker-and-caddy-on-debian-9).

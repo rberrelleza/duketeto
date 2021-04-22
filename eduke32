@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+exec wine /eduke3d/eduke32.exe
