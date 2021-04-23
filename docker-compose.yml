@@ -1,8 +1,9 @@
 version: "3"
 services: 
   duketeto:
+    public: true
     annotations:
       dev.okteto.com/private: "true"
     build: .
     ports:
-      - 8080:8080
+      - 8080
