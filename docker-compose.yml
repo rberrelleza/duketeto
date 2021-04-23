@@ -1,6 +1,8 @@
 version: "3"
 services: 
   duketeto:
+    annotations:
+      dev.okteto.com/auto-ingress: "private"
     build: .
     ports:
-      - 8080:8080
+      - 8080
