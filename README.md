@@ -7,6 +7,7 @@ Inspired by [Łukasz Lach's tweet](https://twitter.com/lach_dev/status/138530010
 - Build containers on demand
 - Compatibility with Docker-Compose
 - Automatic SSL endpoints
+- Access behind login screen
 
 I'm not an expert on Wine (the emulator, that is), so the resolution is off. But PRs accepted ;).
 
